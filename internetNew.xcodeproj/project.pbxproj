@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CD98EC151830C00068BAC1 /* webPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CD98EB151830C00068BAC1 /* webPage.m */; };
+		19D9E35815180294009F0B5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D9E35715180294009F0B5E /* UIKit.framework */; };
+		19D9E35A15180294009F0B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D9E35915180294009F0B5E /* Foundation.framework */; };
+		19D9E35C15180294009F0B5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D9E35B15180294009F0B5E /* CoreGraphics.framework */; };
+		19D9E36215180294009F0B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19D9E36015180294009F0B5E /* InfoPlist.strings */; };
+		19D9E36415180294009F0B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D9E36315180294009F0B5E /* main.m */; };
+		19D9E36815180294009F0B5E /* internetNewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D9E36715180294009F0B5E /* internetNewAppDelegate.m */; };
+		19D9E36B15180294009F0B5E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D9E36915180294009F0B5E /* MainStoryboard.storyboard */; };
+		19D9E36E15180294009F0B5E /* internetNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D9E36D15180294009F0B5E /* internetNewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19CD98EA151830C00068BAC1 /* webPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webPage.h; path = ../webPage.h; sourceTree = "<group>"; };
+		19CD98EB151830C00068BAC1 /* webPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webPage.m; path = ../webPage.m; sourceTree = "<group>"; };
+		19D9E35315180294009F0B5E /* internetNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internetNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D9E35715180294009F0B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19D9E35915180294009F0B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19D9E35B15180294009F0B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19D9E35F15180294009F0B5E /* internetNew-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "internetNew-Info.plist"; sourceTree = "<group>"; };
+		19D9E36115180294009F0B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19D9E36315180294009F0B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19D9E36515180294009F0B5E /* internetNew-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "internetNew-Prefix.pch"; sourceTree = "<group>"; };
+		19D9E36615180294009F0B5E /* internetNewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = internetNewAppDelegate.h; sourceTree = "<group>"; };
+		19D9E36715180294009F0B5E /* internetNewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = internetNewAppDelegate.m; sourceTree = "<group>"; };
+		19D9E36A15180294009F0B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		19D9E36C15180294009F0B5E /* internetNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = internetNewViewController.h; sourceTree = "<group>"; };
+		19D9E36D15180294009F0B5E /* internetNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = internetNewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D9E35015180294009F0B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D9E35815180294009F0B5E /* UIKit.framework in Frameworks */,
+				19D9E35A15180294009F0B5E /* Foundation.framework in Frameworks */,
+				19D9E35C15180294009F0B5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D9E34815180294009F0B5E = {
+			isa = PBXGroup;
+			children = (
+				19D9E35D15180294009F0B5E /* internetNew */,
+				19D9E35615180294009F0B5E /* Frameworks */,
+				19D9E35415180294009F0B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D9E35415180294009F0B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D9E35315180294009F0B5E /* internetNew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D9E35615180294009F0B5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D9E35715180294009F0B5E /* UIKit.framework */,
+				19D9E35915180294009F0B5E /* Foundation.framework */,
+				19D9E35B15180294009F0B5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19D9E35D15180294009F0B5E /* internetNew */ = {
+			isa = PBXGroup;
+			children = (
+				19D9E36615180294009F0B5E /* internetNewAppDelegate.h */,
+				19D9E36715180294009F0B5E /* internetNewAppDelegate.m */,
+				19D9E36915180294009F0B5E /* MainStoryboard.storyboard */,
+				19D9E36C15180294009F0B5E /* internetNewViewController.h */,
+				19D9E36D15180294009F0B5E /* internetNewViewController.m */,
+				19CD98EA151830C00068BAC1 /* webPage.h */,
+				19CD98EB151830C00068BAC1 /* webPage.m */,
+				19D9E35E15180294009F0B5E /* Supporting Files */,
+			);
+			path = internetNew;
+			sourceTree = "<group>";
+		};
+		19D9E35E15180294009F0B5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19D9E35F15180294009F0B5E /* internetNew-Info.plist */,
+				19D9E36015180294009F0B5E /* InfoPlist.strings */,
+				19D9E36315180294009F0B5E /* main.m */,
+				19D9E36515180294009F0B5E /* internetNew-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D9E35215180294009F0B5E /* internetNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D9E37115180294009F0B5E /* Build configuration list for PBXNativeTarget "internetNew" */;
+			buildPhases = (
+				19D9E34F15180294009F0B5E /* Sources */,
+				19D9E35015180294009F0B5E /* Frameworks */,
+				19D9E35115180294009F0B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = internetNew;
+			productName = internetNew;
+			productReference = 19D9E35315180294009F0B5E /* internetNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D9E34A15180294009F0B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 19D9E34D15180294009F0B5E /* Build configuration list for PBXProject "internetNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19D9E34815180294009F0B5E;
+			productRefGroup = 19D9E35415180294009F0B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D9E35215180294009F0B5E /* internetNew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D9E35115180294009F0B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D9E36215180294009F0B5E /* InfoPlist.strings in Resources */,
+				19D9E36B15180294009F0B5E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D9E34F15180294009F0B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D9E36415180294009F0B5E /* main.m in Sources */,
+				19D9E36815180294009F0B5E /* internetNewAppDelegate.m in Sources */,
+				19D9E36E15180294009F0B5E /* internetNewViewController.m in Sources */,
+				19CD98EC151830C00068BAC1 /* webPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19D9E36015180294009F0B5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D9E36115180294009F0B5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19D9E36915180294009F0B5E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D9E36A15180294009F0B5E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19D9E36F15180294009F0B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19D9E37015180294009F0B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19D9E37215180294009F0B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "internetNew/internetNew-Prefix.pch";
+				INFOPLIST_FILE = "internetNew/internetNew-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19D9E37315180294009F0B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "internetNew/internetNew-Prefix.pch";
+				INFOPLIST_FILE = "internetNew/internetNew-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D9E34D15180294009F0B5E /* Build configuration list for PBXProject "internetNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D9E36F15180294009F0B5E /* Debug */,
+				19D9E37015180294009F0B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D9E37115180294009F0B5E /* Build configuration list for PBXNativeTarget "internetNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D9E37215180294009F0B5E /* Debug */,
+				19D9E37315180294009F0B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D9E34A15180294009F0B5E /* Project object */;
+}
